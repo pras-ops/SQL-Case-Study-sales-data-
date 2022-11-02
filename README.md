@@ -1,13 +1,13 @@
 # SQL-Case-Study-sales-data-
 ## Data Cleansing
-CREATE TABLE clean_weekly_sales AS
-SELECT
-  week_date,
-  week(week_date) AS week_number,
-  month(week_date) AS month_number,
-  year(week_date) AS calendar_year,
-  region,
-  platform,
+CREATE TABLE clean_weekly_sales AS\
+SELECT\
+  week_date,\
+  week(week_date) AS week_number,\
+  month(week_date) AS month_number,\
+  year(week_date) AS calendar_year,\
+  region,\
+  platform,\
   CASE
     WHEN segment = 'null' THEN 'Unknown'
     ELSE segment
