@@ -1,4 +1,7 @@
 # SQL-Case-Study-sales-data-
+
+# The data set consists of sales records, the task is to analyze the sales and performance of the company. In June 2020 - large scale supply changes were made at the company. All the products now use sustainable packaging methods in every single step from the farm all the way to the customer, so the company needs to quantify the impact of this change on the sales performance and its separate business areas.
+
 ## Data Cleansing
 CREATE TABLE clean_weekly_sales AS\
 SELECT\
